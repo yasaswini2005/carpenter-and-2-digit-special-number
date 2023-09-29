@@ -9,9 +9,9 @@ int main()
    worker_fee=daily_wage*4;
    scanf("%f",&no_of_workers);
    left=t-(no_of_workers*worker_fee);
-   printf("amount pid to each worker is %f",daily_wage*4);
-   printf("amount paid to all workers %f",no_of_workers*worker_fee);
-   printf("%f is amount left with carpenter",left);
+   printf("amount pid to each worker is %f\n",daily_wage*4);
+   printf("amount paid to all workers %f\n",no_of_workers*worker_fee);
+   printf("%f is amount left with carpenter\n",left);
 
     return 0;
 }
